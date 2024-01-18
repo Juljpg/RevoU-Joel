@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>KaGi</title>
+</head>
+<style>
+    
+</style>
+<body>
+    <header>
+        <h1>KaGi Kalkulator Luas dan Keliling Persegi</h1>
+        <h4>Selamat Datang di Kalkulator Luas dan Keliling Persegi</h4>
+        <p>Web ini digunakan untuk menghitung luas dan keliling persegi dalam rangka menyelesaikan mini project Software Engineering by RevoU</p>
+    </header>
+ <div>
+    <img src="https://4.bp.blogspot.com/-IYE_GGt5Q_8/UOxL9pQvvNI/AAAAAAAAFPA/ZZfdDJDIPxE/s1600/persegi.png" alt="persegi" class="center">
+        </div>
+
+    <div class="inputSection">
+        <p>Rumus Luas dan Keliling Persegi Yaitu</p>
+        <p class="rumusluas">L = S x S</p>     
+        <p class="rumuskeliling">K = 4 x S</p>
+
+        <p>Keterangan:
+            L = Luas
+            K = Keliling
+            S = Sisi
+        </p>
+
+        <script src="index.js"></script>
+        <p>Masukkan Sisi <input type="text" id="s"></p>
+        <div class="button">
+            <button id="countButton" value="Hitung" onclick="luas()">Hitung Luas persegi</button> 
+            <p>Hasil Luas = <span id="luas"></span></p>
+            <button id="countButton" value="Hitung" onclick="kel()">Hitung Keliling persegi</button>
+            <p>Hasil Keliling = <span id="kel"></span></p>
+        </div>    
+    </div>
+</body>
+</html>
